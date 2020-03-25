@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C27167242B4AA6004D1B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C27166242B4AA6004D1B02 /* AppDelegate.swift */; };
+		28C27169242B4AA6004D1B02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C27168242B4AA6004D1B02 /* SceneDelegate.swift */; };
+		28C2716B242B4AA6004D1B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2716A242B4AA6004D1B02 /* ContentView.swift */; };
+		28C2716D242B4AA7004D1B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C2716C242B4AA7004D1B02 /* Assets.xcassets */; };
+		28C27170242B4AA7004D1B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C2716F242B4AA7004D1B02 /* Preview Assets.xcassets */; };
+		28C27173242B4AA7004D1B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C27171242B4AA7004D1B02 /* LaunchScreen.storyboard */; };
+		28C2717E242B4AA7004D1B02 /* TyemteeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2717D242B4AA7004D1B02 /* TyemteeTableTests.swift */; };
+		28C27189242B4AA7004D1B02 /* TyemteeTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C27188242B4AA7004D1B02 /* TyemteeTableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C2717A242B4AA7004D1B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C2715B242B4AA6004D1B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C27162242B4AA6004D1B02;
+			remoteInfo = TyemteeTable;
+		};
+		28C27185242B4AA7004D1B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C2715B242B4AA6004D1B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C27162242B4AA6004D1B02;
+			remoteInfo = TyemteeTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C27163242B4AA6004D1B02 /* TyemteeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyemteeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C27166242B4AA6004D1B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28C27168242B4AA6004D1B02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28C2716A242B4AA6004D1B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28C2716C242B4AA7004D1B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C2716F242B4AA7004D1B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28C27172242B4AA7004D1B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28C27174242B4AA7004D1B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C27179242B4AA7004D1B02 /* TyemteeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyemteeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C2717D242B4AA7004D1B02 /* TyemteeTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyemteeTableTests.swift; sourceTree = "<group>"; };
+		28C2717F242B4AA7004D1B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C27184242B4AA7004D1B02 /* TyemteeTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyemteeTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C27188242B4AA7004D1B02 /* TyemteeTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyemteeTableUITests.swift; sourceTree = "<group>"; };
+		28C2718A242B4AA7004D1B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C27160242B4AA6004D1B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C27176242B4AA7004D1B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C27181242B4AA7004D1B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C2715A242B4AA6004D1B02 = {
+			isa = PBXGroup;
+			children = (
+				28C27165242B4AA6004D1B02 /* TyemteeTable */,
+				28C2717C242B4AA7004D1B02 /* TyemteeTableTests */,
+				28C27187242B4AA7004D1B02 /* TyemteeTableUITests */,
+				28C27164242B4AA6004D1B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C27164242B4AA6004D1B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C27163242B4AA6004D1B02 /* TyemteeTable.app */,
+				28C27179242B4AA7004D1B02 /* TyemteeTableTests.xctest */,
+				28C27184242B4AA7004D1B02 /* TyemteeTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C27165242B4AA6004D1B02 /* TyemteeTable */ = {
+			isa = PBXGroup;
+			children = (
+				28C27166242B4AA6004D1B02 /* AppDelegate.swift */,
+				28C27168242B4AA6004D1B02 /* SceneDelegate.swift */,
+				28C2716A242B4AA6004D1B02 /* ContentView.swift */,
+				28C2716C242B4AA7004D1B02 /* Assets.xcassets */,
+				28C27171242B4AA7004D1B02 /* LaunchScreen.storyboard */,
+				28C27174242B4AA7004D1B02 /* Info.plist */,
+				28C2716E242B4AA7004D1B02 /* Preview Content */,
+			);
+			path = TyemteeTable;
+			sourceTree = "<group>";
+		};
+		28C2716E242B4AA7004D1B02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28C2716F242B4AA7004D1B02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28C2717C242B4AA7004D1B02 /* TyemteeTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C2717D242B4AA7004D1B02 /* TyemteeTableTests.swift */,
+				28C2717F242B4AA7004D1B02 /* Info.plist */,
+			);
+			path = TyemteeTableTests;
+			sourceTree = "<group>";
+		};
+		28C27187242B4AA7004D1B02 /* TyemteeTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C27188242B4AA7004D1B02 /* TyemteeTableUITests.swift */,
+				28C2718A242B4AA7004D1B02 /* Info.plist */,
+			);
+			path = TyemteeTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C27162242B4AA6004D1B02 /* TyemteeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C2718D242B4AA7004D1B02 /* Build configuration list for PBXNativeTarget "TyemteeTable" */;
+			buildPhases = (
+				28C2715F242B4AA6004D1B02 /* Sources */,
+				28C27160242B4AA6004D1B02 /* Frameworks */,
+				28C27161242B4AA6004D1B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyemteeTable;
+			productName = TyemteeTable;
+			productReference = 28C27163242B4AA6004D1B02 /* TyemteeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C27178242B4AA7004D1B02 /* TyemteeTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C27190242B4AA7004D1B02 /* Build configuration list for PBXNativeTarget "TyemteeTableTests" */;
+			buildPhases = (
+				28C27175242B4AA7004D1B02 /* Sources */,
+				28C27176242B4AA7004D1B02 /* Frameworks */,
+				28C27177242B4AA7004D1B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C2717B242B4AA7004D1B02 /* PBXTargetDependency */,
+			);
+			name = TyemteeTableTests;
+			productName = TyemteeTableTests;
+			productReference = 28C27179242B4AA7004D1B02 /* TyemteeTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C27183242B4AA7004D1B02 /* TyemteeTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C27193242B4AA7004D1B02 /* Build configuration list for PBXNativeTarget "TyemteeTableUITests" */;
+			buildPhases = (
+				28C27180242B4AA7004D1B02 /* Sources */,
+				28C27181242B4AA7004D1B02 /* Frameworks */,
+				28C27182242B4AA7004D1B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C27186242B4AA7004D1B02 /* PBXTargetDependency */,
+			);
+			name = TyemteeTableUITests;
+			productName = TyemteeTableUITests;
+			productReference = 28C27184242B4AA7004D1B02 /* TyemteeTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C2715B242B4AA6004D1B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Viettasc Doan";
+				TargetAttributes = {
+					28C27162242B4AA6004D1B02 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					28C27178242B4AA7004D1B02 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 28C27162242B4AA6004D1B02;
+					};
+					28C27183242B4AA7004D1B02 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 28C27162242B4AA6004D1B02;
+					};
+				};
+			};
+			buildConfigurationList = 28C2715E242B4AA6004D1B02 /* Build configuration list for PBXProject "TyemteeTable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C2715A242B4AA6004D1B02;
+			productRefGroup = 28C27164242B4AA6004D1B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C27162242B4AA6004D1B02 /* TyemteeTable */,
+				28C27178242B4AA7004D1B02 /* TyemteeTableTests */,
+				28C27183242B4AA7004D1B02 /* TyemteeTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C27161242B4AA6004D1B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C27173242B4AA7004D1B02 /* LaunchScreen.storyboard in Resources */,
+				28C27170242B4AA7004D1B02 /* Preview Assets.xcassets in Resources */,
+				28C2716D242B4AA7004D1B02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C27177242B4AA7004D1B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C27182242B4AA7004D1B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C2715F242B4AA6004D1B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C27167242B4AA6004D1B02 /* AppDelegate.swift in Sources */,
+				28C27169242B4AA6004D1B02 /* SceneDelegate.swift in Sources */,
+				28C2716B242B4AA6004D1B02 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C27175242B4AA7004D1B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C2717E242B4AA7004D1B02 /* TyemteeTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C27180242B4AA7004D1B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C27189242B4AA7004D1B02 /* TyemteeTableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C2717B242B4AA7004D1B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C27162242B4AA6004D1B02 /* TyemteeTable */;
+			targetProxy = 28C2717A242B4AA7004D1B02 /* PBXContainerItemProxy */;
+		};
+		28C27186242B4AA7004D1B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C27162242B4AA6004D1B02 /* TyemteeTable */;
+			targetProxy = 28C27185242B4AA7004D1B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28C27171242B4AA7004D1B02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C27172242B4AA7004D1B02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C2718B242B4AA7004D1B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28C2718C242B4AA7004D1B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C2718E242B4AA7004D1B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TyemteeTable/Preview Content\"";
+				DEVELOPMENT_TEAM = 62WM398225;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TyemteeTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = izzy.ace.mia.senegal.viettasc.TyemteeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C2718F242B4AA7004D1B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TyemteeTable/Preview Content\"";
+				DEVELOPMENT_TEAM = 62WM398225;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TyemteeTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = izzy.ace.mia.senegal.viettasc.TyemteeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28C27191242B4AA7004D1B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62WM398225;
+				INFOPLIST_FILE = TyemteeTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = izzy.ace.mia.senegal.viettasc.TyemteeTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyemteeTable.app/TyemteeTable";
+			};
+			name = Debug;
+		};
+		28C27192242B4AA7004D1B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62WM398225;
+				INFOPLIST_FILE = TyemteeTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = izzy.ace.mia.senegal.viettasc.TyemteeTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyemteeTable.app/TyemteeTable";
+			};
+			name = Release;
+		};
+		28C27194242B4AA7004D1B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62WM398225;
+				INFOPLIST_FILE = TyemteeTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = izzy.ace.mia.senegal.viettasc.TyemteeTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TyemteeTable;
+			};
+			name = Debug;
+		};
+		28C27195242B4AA7004D1B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62WM398225;
+				INFOPLIST_FILE = TyemteeTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = izzy.ace.mia.senegal.viettasc.TyemteeTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TyemteeTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C2715E242B4AA6004D1B02 /* Build configuration list for PBXProject "TyemteeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C2718B242B4AA7004D1B02 /* Debug */,
+				28C2718C242B4AA7004D1B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C2718D242B4AA7004D1B02 /* Build configuration list for PBXNativeTarget "TyemteeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C2718E242B4AA7004D1B02 /* Debug */,
+				28C2718F242B4AA7004D1B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C27190242B4AA7004D1B02 /* Build configuration list for PBXNativeTarget "TyemteeTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C27191242B4AA7004D1B02 /* Debug */,
+				28C27192242B4AA7004D1B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C27193242B4AA7004D1B02 /* Build configuration list for PBXNativeTarget "TyemteeTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C27194242B4AA7004D1B02 /* Debug */,
+				28C27195242B4AA7004D1B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C2715B242B4AA6004D1B02 /* Project object */;
+}
